@@ -24,7 +24,6 @@ This frontend application provides a comprehensive web interface for the Task Ma
 - **Get All Tasks**
  ![WhatsApp Image 2025-10-19 at 17 14 51_8e44c1e9](https://github.com/user-attachments/assets/7b4af334-c737-4518-bffc-1644fae2d641)
 
-
 - **Search Task By Name**
  ![WhatsApp Image 2025-10-19 at 17 12 32_c0a3e2fd](https://github.com/user-attachments/assets/fddd796a-af5b-4c67-9192-423328cc01a3)
 
