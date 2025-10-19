@@ -1,24 +1,9 @@
-# 🎯 Task Management Frontend
+# Task Management Frontend
 
-A modern React 19 frontend application for the Task Management API, built with TypeScript and Ant Design. This application provides a beautiful, accessible web interface for managing shell command tasks with real-time execution capabilities.
+A React 19 frontend application for the Task Management API, built with TypeScript and Ant Design. 
 
-## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Development](#development)
-- [Project Structure](#project-structure)
-- [API Integration](#api-integration)
-- [Accessibility](#accessibility)
-- [Security](#security)
-- [Performance](#performance)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-
-## 🎯 Overview
+## Overview
 
 This frontend application provides a comprehensive web interface for the Task Management API, allowing users to:
 
@@ -29,48 +14,33 @@ This frontend application provides a comprehensive web interface for the Task Ma
 - **Delete Tasks** - Remove tasks with confirmation dialogs
 - **Track History** - View complete execution history with timestamps
 
-### Key Capabilities
-- **Real-time Task Management** - Create, read, update, delete operations
-- **Command Execution** - Safe execution of shell commands with output capture
-- **Search & Filter** - Advanced search functionality with partial matching
-- **Execution Tracking** - Complete audit trail of all task executions
-- **Security Validation** - Client and server-side command validation
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 
-## ✨ Features
+## Implementation
 
-### 🔒 **Security-First Design**
-- **Command Validation** - Prevents execution of dangerous operations
-- **Input Sanitization** - All user inputs are validated
-- **Error Boundaries** - Graceful error handling throughout the app
-- **HTTPS Ready** - Production-ready security headers
+- **Create New Task**
+- ![WhatsApp Image 2025-10-19 at 17 07 15_5e714c22](https://github.com/user-attachments/assets/41b865ca-a037-4ae1-a12e-00e0fb8c0a8d)
+- ![WhatsApp Image 2025-10-19 at 17 07 50_d7fa4b36](https://github.com/user-attachments/assets/4e89f643-0750-42a1-ba3c-99372fe9d944)
+  
+- **Get All Tasks**
+- ![WhatsApp Image 2025-10-19 at 17 14 51_8e44c1e9](https://github.com/user-attachments/assets/7b4af334-c737-4518-bffc-1644fae2d641)
 
-### 📊 **Execution Tracking**
-- **Real-time Output** - View command execution results immediately
-- **Execution History** - Complete audit trail with timestamps
-- **Success/Failure Status** - Clear visual indicators for execution results
-- **Output Persistence** - All execution outputs are stored and displayed
 
-### 🔍 **Advanced Search**
-- **Real-time Search** - Instant filtering as you type
-- **Case-insensitive** - Find tasks regardless of case
-- **Partial Matching** - Search with partial task names
-- **Clear Search** - Easy reset to show all tasks
+- **Search Task By Name**
+- ![WhatsApp Image 2025-10-19 at 17 12 32_c0a3e2fd](https://github.com/user-attachments/assets/fddd796a-af5b-4c67-9192-423328cc01a3)
 
-### 🎨 **Modern UI/UX**
-- **Ant Design Components** - Professional, consistent design system
-- **Responsive Layout** - Adapts to all screen sizes
-- **Dark/Light Theme Ready** - Easy theme customization
-- **Loading States** - Visual feedback during operations
-- **Success/Error Messages** - Clear user feedback
+- **Execute Tasks**
+- ![WhatsApp Image 2025-10-19 at 17 19 37_9d0b8253](https://github.com/user-attachments/assets/426df8e4-45ed-414c-acbc-009e8017f4f8)
+- ![WhatsApp Image 2025-10-19 at 17 20 02_c6d56573](https://github.com/user-attachments/assets/7bca2fe1-47a8-4f96-847c-e0b794005698)
+- ![WhatsApp Image 2025-10-19 at 17 20 27_e6ca3c56](https://github.com/user-attachments/assets/f64ba5f3-bb44-4898-993c-53a0a7f34243)
 
-### ♿ **Accessibility**
-- **WCAG 2.1 AA Compliant** - Meets accessibility guidelines
-- **Keyboard Navigation** - Full keyboard support
-- **Screen Reader Support** - Compatible with assistive technologies
-- **ARIA Labels** - Proper semantic markup
-- **Focus Management** - Clear focus indicators
-- **Color Contrast** - High contrast ratios for readability
+- **Delete Task**
+- ![WhatsApp Image 2025-10-19 at 17 21 01_f36a5bc4](https://github.com/user-attachments/assets/8757c38f-a659-4181-b975-d65ed25c472c)
+- ![WhatsApp Image 2025-10-19 at 17 21 23_04d693e0](https://github.com/user-attachments/assets/2087fdfa-c5c5-45db-a790-e39003cb55f0)
+
+- **MongoDB Image**
+- ![WhatsApp Image 2025-10-19 at 18 00 09_1a450bbc](https://github.com/user-attachments/assets/8f25b1a0-054b-411a-a099-19c643012c93)
+
+
 
 ## 🛠️ Technology Stack
 
@@ -80,18 +50,6 @@ This frontend application provides a comprehensive web interface for the Task Ma
 - **Ant Design 5.21** - Modern UI component library with comprehensive design system
 - **Vite 5.4** - Fast build tool and development server
 
-### **Development Tools**
-- **ESLint** - Code linting and quality assurance
-- **TypeScript Compiler** - Type checking and compilation
-- **Vite Dev Server** - Hot module replacement and fast development
-
-### **HTTP Client**
-- **Axios 1.7** - Promise-based HTTP client for API communication
-- **Request/Response Interceptors** - Automatic error handling and logging
-
-### **Utilities**
-- **Day.js 1.11** - Lightweight date manipulation library
-- **Ant Design Icons** - Comprehensive icon set
 
 ## 📋 Prerequisites
 
@@ -112,7 +70,7 @@ Before running this application, ensure you have the following installed:
 
 ### **1. Clone the Repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/zeusXtruealpha/Kaiburr_Task_3
 cd demo/frontend
 ```
 
@@ -137,39 +95,6 @@ npm run dev
 ### **5. Open in Browser**
 Navigate to: `http://localhost:3000`
 
-### **Alternative: Use Startup Scripts**
-
-**Windows:**
-```bash
-start.bat
-```
-
-**Linux/Mac:**
-```bash
-chmod +x start.sh
-./start.sh
-```
-
-## 🛠️ Development
-
-### **Available Scripts**
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run TypeScript type checking
-npm run type-check
-
-# Run ESLint
-npm run lint
-```
 
 ### **Development Workflow**
 
@@ -192,14 +117,8 @@ npm run lint
    npm run build
    ```
 
-### **Code Quality**
 
-- **TypeScript**: Strict type checking enabled
-- **ESLint**: Code quality and consistency
-- **Prettier**: Code formatting (recommended)
-- **Husky**: Git hooks for quality assurance (optional)
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -219,26 +138,12 @@ frontend/
 │   ├── main.tsx            # Application entry point
 │   └── index.css           # Global styles
 ├── public/                 # Static assets
-├── dist/                   # Production build output
 ├── package.json            # Dependencies and scripts
 ├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite build configuration
-├── start.sh/.bat           # Startup scripts
-└── README.md              # This file
+├── vite.config.ts          # Vite build configuration     
+└── README.md              
 ```
 
-### **Component Architecture**
-
-```
-App.tsx
-├── TaskForm.tsx           # Task creation
-├── SearchBar.tsx          # Task search
-└── TaskList.tsx
-    └── TaskCard.tsx       # Individual task display
-        ├── Execute Button
-        ├── Delete Button
-        └── Execution History
-```
 
 ## 🔄 API Integration
 
@@ -271,219 +176,3 @@ PUT    /tasks/{id}/execute // Execute task
 - **Security Errors** - Malicious command detection
 - **Server Errors** - Backend processing errors
 
-## ♿ Accessibility
-
-### **WCAG 2.1 AA Compliance**
-
-- **Perceivable** - Clear visual and textual information
-- **Operable** - Keyboard navigation and accessible controls
-- **Understandable** - Clear language and predictable behavior
-- **Robust** - Compatible with assistive technologies
-
-### **Implementation Details**
-
-- **ARIA Labels** - All interactive elements properly labeled
-- **Semantic HTML** - Proper heading structure and landmarks
-- **Keyboard Navigation** - Full keyboard support for all features
-- **Focus Management** - Clear focus indicators and logical tab order
-- **Color Contrast** - High contrast ratios (4.5:1 minimum)
-- **Screen Reader Support** - Compatible with NVDA, JAWS, VoiceOver
-
-### **Testing Accessibility**
-
-```bash
-# Install accessibility testing tools
-npm install -g @axe-core/cli
-
-# Run accessibility tests
-axe http://localhost:3000
-```
-
-## 🔒 Security
-
-### **Client-Side Security**
-
-- **Input Validation** - All form inputs are validated
-- **XSS Prevention** - React's built-in XSS protection
-- **CSRF Protection** - Same-origin policy enforcement
-- **Secure Headers** - Content Security Policy ready
-
-### **API Security**
-
-- **Command Validation** - Dangerous commands blocked by backend
-- **Input Sanitization** - All inputs sanitized before processing
-- **Error Handling** - Secure error messages without sensitive data
-- **HTTPS Ready** - Production-ready security configuration
-
-### **Security Best Practices**
-
-- **No Sensitive Data** - No passwords or tokens stored in frontend
-- **Secure Communication** - HTTPS in production
-- **Regular Updates** - Keep dependencies updated
-- **Code Review** - Security-focused code reviews
-
-## 📈 Performance
-
-### **Bundle Analysis**
-
-- **Total Bundle Size**: ~900KB (gzipped: ~290KB)
-- **Initial Load Time**: < 2 seconds on modern browsers
-- **Runtime Performance**: Optimized React components with minimal re-renders
-- **Memory Usage**: Efficient state management
-
-### **Optimization Features**
-
-- **Code Splitting** - Dynamic imports for better loading
-- **Tree Shaking** - Unused code elimination
-- **Minification** - Production code optimization
-- **Gzip Compression** - Reduced transfer sizes
-- **Caching** - Browser caching for static assets
-
-### **Performance Monitoring**
-
-```bash
-# Analyze bundle size
-npm run build
-npx vite-bundle-analyzer dist
-
-# Performance testing
-npm install -g lighthouse
-lighthouse http://localhost:3000
-```
-
-## 🐛 Troubleshooting
-
-### **Common Issues**
-
-#### **1. Backend Connection Error**
-```
-Error: Failed to fetch tasks
-```
-**Solution:**
-- Ensure Spring Boot backend is running on port 8080
-- Check firewall settings
-- Verify API endpoints are accessible
-
-#### **2. Build Errors**
-```
-TypeScript compilation failed
-```
-**Solution:**
-```bash
-npm run type-check
-# Fix TypeScript errors
-npm run build
-```
-
-#### **3. Port Already in Use**
-```
-Port 3000 is already in use
-```
-**Solution:**
-```bash
-# Kill process using port 3000
-npx kill-port 3000
-# Or change port in vite.config.ts
-```
-
-#### **4. Dependencies Issues**
-```
-Module not found errors
-```
-**Solution:**
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### **Debug Mode**
-
-Enable debug logging:
-1. Open browser DevTools (F12)
-2. Go to Console tab
-3. Check for API request logs and errors
-
-### **Performance Issues**
-
-- **Slow Loading**: Check network tab for slow requests
-- **Memory Leaks**: Monitor memory usage in DevTools
-- **Bundle Size**: Use bundle analyzer to identify large dependencies
-
-## 🚀 Deployment
-
-### **Production Build**
-
-```bash
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-### **Deployment Options**
-
-- **Static Hosting**: Netlify, Vercel, GitHub Pages
-- **CDN**: CloudFlare, AWS CloudFront
-- **Container**: Docker with Nginx
-- **Server**: Apache, Nginx, IIS
-
-### **Environment Configuration**
-
-```typescript
-// vite.config.ts
-export default defineConfig({
-  server: {
-    proxy: {
-      '/api': {
-        target: process.env.VITE_API_URL || 'http://localhost:8080',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
-  }
-})
-```
-
-## 🤝 Contributing
-
-### **Development Setup**
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests and linting
-5. Submit a pull request
-
-### **Code Standards**
-
-- **TypeScript**: Strict type checking
-- **ESLint**: Follow configured rules
-- **Components**: Functional components with hooks
-- **Styling**: Ant Design components and custom CSS
-- **Testing**: Unit tests for components (recommended)
-
-### **Pull Request Process**
-
-1. **Fork** the repository
-2. **Create** a feature branch
-3. **Commit** your changes
-4. **Push** to your fork
-5. **Create** a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Ant Design** - Beautiful UI component library
-- **React Team** - Amazing frontend framework
-- **Vite Team** - Fast build tool
-- **Spring Boot** - Robust backend framework
-
----
-
-**Ready to manage your tasks with style! 🚀**
-
-For more information, visit the [main project README](../README.md).
