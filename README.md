@@ -18,27 +18,27 @@ This frontend application provides a comprehensive web interface for the Task Ma
 ## Implementation
 
 - **Create New Task**
-- ![WhatsApp Image 2025-10-19 at 17 07 15_5e714c22](https://github.com/user-attachments/assets/41b865ca-a037-4ae1-a12e-00e0fb8c0a8d)
-- ![WhatsApp Image 2025-10-19 at 17 07 50_d7fa4b36](https://github.com/user-attachments/assets/4e89f643-0750-42a1-ba3c-99372fe9d944)
+ ![WhatsApp Image 2025-10-19 at 17 07 15_5e714c22](https://github.com/user-attachments/assets/41b865ca-a037-4ae1-a12e-00e0fb8c0a8d)
+ ![WhatsApp Image 2025-10-19 at 17 07 50_d7fa4b36](https://github.com/user-attachments/assets/4e89f643-0750-42a1-ba3c-99372fe9d944)
   
 - **Get All Tasks**
-- ![WhatsApp Image 2025-10-19 at 17 14 51_8e44c1e9](https://github.com/user-attachments/assets/7b4af334-c737-4518-bffc-1644fae2d641)
+ ![WhatsApp Image 2025-10-19 at 17 14 51_8e44c1e9](https://github.com/user-attachments/assets/7b4af334-c737-4518-bffc-1644fae2d641)
 
 
 - **Search Task By Name**
-- ![WhatsApp Image 2025-10-19 at 17 12 32_c0a3e2fd](https://github.com/user-attachments/assets/fddd796a-af5b-4c67-9192-423328cc01a3)
+ ![WhatsApp Image 2025-10-19 at 17 12 32_c0a3e2fd](https://github.com/user-attachments/assets/fddd796a-af5b-4c67-9192-423328cc01a3)
 
 - **Execute Tasks**
-- ![WhatsApp Image 2025-10-19 at 17 19 37_9d0b8253](https://github.com/user-attachments/assets/426df8e4-45ed-414c-acbc-009e8017f4f8)
-- ![WhatsApp Image 2025-10-19 at 17 20 02_c6d56573](https://github.com/user-attachments/assets/7bca2fe1-47a8-4f96-847c-e0b794005698)
-- ![WhatsApp Image 2025-10-19 at 17 20 27_e6ca3c56](https://github.com/user-attachments/assets/f64ba5f3-bb44-4898-993c-53a0a7f34243)
+ ![WhatsApp Image 2025-10-19 at 17 19 37_9d0b8253](https://github.com/user-attachments/assets/426df8e4-45ed-414c-acbc-009e8017f4f8)
+ ![WhatsApp Image 2025-10-19 at 17 20 02_c6d56573](https://github.com/user-attachments/assets/7bca2fe1-47a8-4f96-847c-e0b794005698)
+ ![WhatsApp Image 2025-10-19 at 17 20 27_e6ca3c56](https://github.com/user-attachments/assets/f64ba5f3-bb44-4898-993c-53a0a7f34243)
 
 - **Delete Task**
-- ![WhatsApp Image 2025-10-19 at 17 21 01_f36a5bc4](https://github.com/user-attachments/assets/8757c38f-a659-4181-b975-d65ed25c472c)
-- ![WhatsApp Image 2025-10-19 at 17 21 23_04d693e0](https://github.com/user-attachments/assets/2087fdfa-c5c5-45db-a790-e39003cb55f0)
+ ![WhatsApp Image 2025-10-19 at 17 21 01_f36a5bc4](https://github.com/user-attachments/assets/8757c38f-a659-4181-b975-d65ed25c472c)
+ ![WhatsApp Image 2025-10-19 at 17 21 23_04d693e0](https://github.com/user-attachments/assets/2087fdfa-c5c5-45db-a790-e39003cb55f0)
 
 - **MongoDB Image**
-- ![WhatsApp Image 2025-10-19 at 18 00 09_1a450bbc](https://github.com/user-attachments/assets/8f25b1a0-054b-411a-a099-19c643012c93)
+ ![WhatsApp Image 2025-10-19 at 18 00 09_1a450bbc](https://github.com/user-attachments/assets/8f25b1a0-054b-411a-a099-19c643012c93)
 
 
 
@@ -71,7 +71,7 @@ Before running this application, ensure you have the following installed:
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/zeusXtruealpha/Kaiburr_Task_3
-cd demo/frontend
+cd frontend
 ```
 
 ### **2. Install Dependencies**
