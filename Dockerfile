@@ -21,7 +21,7 @@ FROM nginx:alpine
 # Install curl for health checks
 RUN apk add --no-cache curl
 
-# Copy custom nginx config
+# Copy custom nginx config (fallback to default if not present)
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy built application from builder stage

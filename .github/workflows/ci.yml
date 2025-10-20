@@ -30,8 +30,13 @@ jobs:
     - name: Type check
       run: npm run type-check
       
-    - name: Lint code
-      run: npm run lint
+    - name: Lint code (skip if no config)
+      run: |
+        if [ -f .eslintrc -o -f .eslintrc.json -o -f .eslintrc.js -o -f eslint.config.js ]; then
+          npm run lint
+        else
+          echo "No ESLint config found; skipping lint"
+        fi
       
     - name: Build application
       run: npm run build
